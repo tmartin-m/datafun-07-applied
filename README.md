@@ -108,4 +108,29 @@ git commit -m "Add .gitignore and requirements.txt files"
 git push -u origin main
 ```
 
-4. Example Repo
+4. Textbook examples:
+- 10.16 (Page 414)
+- 15.4 (Page 620)
+
+5. Work Flow
+- Chart a Straight Line
+- Prediction
+  - Data Acquisition
+  - Data Inspection
+  - Data Cleaning
+  - Descriptive Statistics
+  - Build the Model
+  - Predict
+  - Visualizations
+- Insights
+
+6. Insights
+Both the SciPy and scikit-learn models predicted very similar outcomes:
+- Scipy: 38.59
+- scikit-learn: 38.94
+
+These results make sense as both are comparing the same dataset.
+
+And both models support both conceptually and visually a gradual warming of January tempeartures over time which could be a result of global warming effects.
+
+This also seems like a strong base and could easily be added to for more complex analysis. 
